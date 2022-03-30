@@ -3,22 +3,22 @@
 
 int main()
 	{
-		int cont,num,maior;
-		maior=0;
+		int cont,numero,maiorNumero;
+		maiorNumero=0;
 		
 		for (cont=1;cont<=15;cont++)
 		{	
 			printf ("(%d) Digite um numero: ", cont);
-			scanf("%d",&num);
+			scanf("%d",&numero);
 			
 			
-			if (num > maior)
+			if (numero > maiorNumero)
 			{
-				maior=num;
+				maiorNumero=numero;
 			}
 				
 		}
-		printf ("O maior dos numeros lidos foi = %d\n",maior); return 0;
+		printf ("O maior dos numeros lidos foi: %d\n",maiorNumero); return 0;
 	}
 
 
