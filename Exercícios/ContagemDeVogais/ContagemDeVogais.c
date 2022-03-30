@@ -7,9 +7,10 @@ int main ()
 		int contA = 0, contE = 0, contI =0, contO = 0, contU = 0;
 		
 		printf("\n_________________________________________________________________________");
+		printf("\n|                                                                       |");
 		printf("\n| Digite uma palavra, letra por letra, pressionando o 'enter'           |");
-		printf("\n| Ao finalizar a palavra, digite um '.' e pressione o 'enter' novamente |\n");
-		printf("|_______________________________________________________________________|\n");
+		printf("\n| Ao finalizar a palavra, digite um '.' e pressione o 'enter' novamente |");
+		printf("\n|_______________________________________________________________________|\n");
 		
 		printf("\nDigite a primeira letra:\n");
 		
